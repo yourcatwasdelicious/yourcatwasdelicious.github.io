@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTPC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="cover0.jpg" alt="cover0" class="cover">
+    </header>
+<body>
+
+    <button class="tablink" onclick="openPage('Bio', this, '#F8DF4F')" id="defaultOpen">BIO</button>
+    <button class="tablink" onclick="openPage('Albumok', this, '#F8DF4F')">ALBUMOK</button>
+    <button class="tablink" onclick="openPage('Képek', this, '#F8DF4F')">KÉPEK</button>
+    
+    
+       
+    <div id="Bio" class="tabcontent">
+      <h3>A BAND OF FRIENDS WHO DON'T LIKE CHAIRS.</h3>
+      <ul>
+        <li>Gabó</li>
+        <li>Maugli</li>
+        <li>Mesti</li>     
+      </ul>
+     
+      <a href="http://dtpc.bandcamp.com/" target="_blank">bandcamp</a><br>
+      <a href="https://www.facebook.com/dtpcband/" target="_blank">facebook</a>
+    </div>
+    
+    <div id="Albumok" class="tabcontent">
+        <section>
+          <img src="1.jpg" class="borito" alt="Destroy The Plastic Chairs! EP"></img>
+          <a href="https://dtpc.bandcamp.com/album/destroy-the-plastic-chairs-ep" class="albumlink" target="_blank">Destroy The Plastic Chairs! EP</a>
+        </section>  
+        <section>
+          <img src="2.jpg" class="borito" alt="Cat's Life">
+          <a href="https://dtpc.bandcamp.com/album/cats-life" class="albumlink" target="_blank">Cat's Life</a>
+        </section>   
+        <section>
+          <img src="3.jpg" class="borito" alt="Road to Shepherd's Valley">
+          <a href="https://dtpc.bandcamp.com/album/road-to-shepherds-valley" class="albumlink" target="_blank">Road to Shepherd's Valley</a>
+        </section>
+        <section>
+          <img src="4.jpg" class="borito" alt="Dancing Whales">
+          <a href="https://dtpc.bandcamp.com/album/dancing-whales" class="albumlink" target="_blank">Dancing Whales</a>
+        </section>
+        <section>
+          <img src="5.jpg" class="borito" alt="Uborkaszezon">
+          <a href="https://dtpc.bandcamp.com/album/uborkaszezon" class="albumlink" target="_blank">Uborkaszezon</a>
+        </section>
+        <section>
+          <img src="6.jpg" class="borito" alt="Destroy The Plastic Christmas Tree!">
+          <a href="https://dtpc.bandcamp.com/track/destroy-the-plastic-christmas-tree" class="albumlink" target="_blank">Destroy The Plastic Christmas Tree!</a>
+        </section>
+        <section>
+          <img src="7.jpg" class="borito" alt=">Nikotin">
+          <a href="https://dtpc.bandcamp.com/album/nikotin" class="albumlink" target="_blank">Nikotin</a>
+        </section>
+        <section>
+          <img src="8.jpg" class="borito" alt="napok, fellegek">
+          <a href="https://dtpc.bandcamp.com/track/napok-fellegek" class="albumlink" target="_blank">napok, fellegek</a>
+        </section>
+        <section>
+          <img src="9.jpg" class="borito" alt="Recycled Pieces (2008​-​2014)">
+          <a href="https://dtpc.bandcamp.com/album/recycled-pieces-2008-2014" class="albumlink" target="_blank">Recycled Pieces (2008​-​2014)</a>
+        </section>
+        <section> 
+          <img src="10.jpg" class="borito" alt="Hesna">
+          <a href="https://dtpc.bandcamp.com/track/hesna" class="albumlink" target="_blank">Hesna</a>
+        </section>
+        <section> 
+          <img src="11.jpg" class="borito" alt="Шупашкарти ҫулласем">
+          <a href="https://dtpc.bandcamp.com/album/-" class="albumlink" target="_blank">Шупашкарти ҫулласем</a>
+    </section>        
+    </div>
+ 
+    <div id="Képek" class="tabcontent">
+      <img src="kep0.jpg" class="pictures" alt="banda">
+      <img src="11.jpg" class="pictures" alt="barbi">
+      <img src="kep1.jpg" class="pictures" alt="proba">
+      <img src="kep2.jpg" class="pictures" alt="solymar">
+      <img src="kep3.jpg" class="pictures" alt="hesnaval">
+      <img src="kep5.jpg" class="pictures" alt="kodos">
+    
+   
+  </div>
+    
+
+    
+    
+    
+    <script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+
+  </script>
+       
+    </body>
+</html>

@@ -1,0 +1,117 @@
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(253, 236, 0);
+  background-color: #FDDDA4;
+  font-family: 'Jost', sans-serif;
+       }
+
+.cover {
+  width: 70%;
+  height: 160px;
+}
+
+section {
+  margin: 30px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-evenly;
+  
+}
+
+
+.borito {
+  width: 150px;
+     
+}
+
+.albumlink {
+  display: block;
+  font-size: 10px;
+  
+}
+
+h3 {
+color:#d67d2f;
+font-size: 35px;
+font-family: 'Jost', sans-serif;
+} 
+
+li {
+color:  #d67d2f;
+font-size: 30px;
+font-family: 'Jost', sans-serif;
+list-style-type: circle;
+}
+
+a:link {
+  text-decoration: none;
+  color: #76A08A;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #d67d2f;
+} 
+
+.pictures {
+  width: 250px;
+  margin: 40px;
+  
+}
+
+.pictures:hover{
+  width: 300px;
+}
+
+
+/* Style tab links */
+.tablink {
+background-color:#F8DF4F;
+color:#A35E60;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 15px 50px;
+font-size: 23px;
+width: 33%;
+}
+
+.tablink:hover {
+background-color:#EFC458;
+}
+
+
+.tabcontent {
+color: rgb(247, 203, 147);
+padding: 100px 100px;
+height:100%;
+
+}
+
+#Bio {
+background-color: #FDDDA4;
+font-family: 'Jost', sans-serif;
+}
+
+#Albumok {
+  background-color: #FDDDA4;
+  font-family: 'Jost', sans-serif;
+}
+
+#Képek {
+background-color: #FDDDA4;
+font-family: 'Jost', sans-serif;
+
+}
+
